@@ -4,7 +4,6 @@
 
 - Установлен **Swift** и **Vapor**
 - Установлен **Docker** для контейнера с PostgreSQL
-- Установлен **Visual Studio Code**
 
 #### Шаги:
 
