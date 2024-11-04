@@ -16,7 +16,7 @@ export default function ChatList({ onSelectChat }: ChatListProps) {
     <div className="w-1/3 bg-gray-100 p-4">
       <button
         onClick={() => onSelectChat(null)}
-        className="block w-full text-left text-blue-500"
+        className="block w-full text-left text-blue-500 hover:text-blue-700"
       >
         + New Chat
       </button>
@@ -24,7 +24,7 @@ export default function ChatList({ onSelectChat }: ChatListProps) {
         <div
           key={chat.id}
           onClick={() => onSelectChat(chat.id)}
-          className="cursor-pointer"
+          className="cursor-pointer text-blue-500 hover:text-blue-700"
         >
           {chat.name}
         </div>

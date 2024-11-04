@@ -22,7 +22,7 @@ export default function ChatBox({ chatId }: ChatBoxProps) {
   };
 
   return (
-    <div className="flex-1 p-4">
+    <div className="flex-1 p-5">
       <div className="overflow-y-auto">
         {messages.map((msg) => (
           <div key={msg.id} className="my-2">

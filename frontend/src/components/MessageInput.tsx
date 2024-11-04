@@ -18,12 +18,15 @@ export default function MessageInput({ onSend }: MessageInputProps) {
     <div className="flex">
       <input
         type="text"
-        className="flex-1 border p-2"
+        className="flex-1 border p-2 rounded-lg text-black"
         placeholder="Type a message..."
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       />
-      <button onClick={handleSend} className="bg-blue-500 text-white p-2">
+      <button
+        onClick={handleSend}
+        className="bg-blue-500 text-white ml-4 p-2 rounded-lg"
+      >
         Send
       </button>
     </div>
